@@ -99,7 +99,7 @@ class UserService {
             email: user.email,
             role: user.role
         };
-        return jsonwebtoken_1.default.sign(payload, process.env.JWT_SECRET, {
+        return jsonwebtoken_1.default.sign(payload, "sdshjdhsjdhskjag#@#", {
             expiresIn: '24h' // Token expires in 24 hours
         });
     }

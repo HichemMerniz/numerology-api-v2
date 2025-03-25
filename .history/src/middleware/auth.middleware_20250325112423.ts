@@ -23,7 +23,7 @@ export const authenticateToken = (req: Request, res: Response, next: NextFunctio
   }
 
   try {
-    const user = jwt.verify(token, "sdshjdhsjdhskjag#@#"!) as JWTPayload;
+    const user = jwt.verify(token, "process.env.JWT_SECRET"!) as JWTPayload;
     req.user = user;
     next();
   } catch (error) {
