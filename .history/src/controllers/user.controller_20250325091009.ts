@@ -1,4 +1,4 @@
-import { Router, Request, Response } from 'express';
+import { Router, Request, Response, NextFunction } from 'express';
 import { UserService } from '../services/user.service';
 import { authenticateToken, requireRole } from '../middleware/auth.middleware';
 import { UserRegistrationInput, UserLoginInput, UserUpdateInput, PasswordUpdateInput } from '../types/user-types';
@@ -7,7 +7,7 @@ const router = Router();
 const userService = new UserService();
 
 // Register new user
-router.post('/register', async (req: Request, res: Response) => {
+router.post('/register', async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
     const input: UserRegistrationInput = {
       email: req.body.email,
@@ -34,7 +34,7 @@ router.post('/register', async (req: Request, res: Response) => {
 });
 
 // Login user
-router.post('/login', async (req: Request, res: Response) => {
+router.post('/login', async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
     const input: UserLoginInput = {
       email: req.body.email,
@@ -52,7 +52,7 @@ router.post('/login', async (req: Request, res: Response) => {
 });
 
 // Get current user profile
-router.get('/profile', authenticateToken, async (req: Request, res: Response) => {
+router.get('/profile', authenticateToken, async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
     const user = await userService.getUser(req.user!.userId);
     res.json(user);
@@ -65,7 +65,7 @@ router.get('/profile', authenticateToken, async (req: Request, res: Response) =>
 });
 
 // Update user profile
-router.put('/profile', authenticateToken, async (req: Request, res: Response) => {
+router.put('/profile', authenticateToken, async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
     const input: UserUpdateInput = {
       firstName: req.body.firstName,
@@ -84,7 +84,7 @@ router.put('/profile', authenticateToken, async (req: Request, res: Response) =>
 });
 
 // Update password
-router.put('/password', authenticateToken, async (req: Request, res: Response) => {
+router.put('/password', authenticateToken, async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
     const input: PasswordUpdateInput = {
       currentPassword: req.body.currentPassword,
@@ -102,7 +102,7 @@ router.put('/password', authenticateToken, async (req: Request, res: Response) =
 });
 
 // Admin only: Get all users
-router.get('/users', authenticateToken, requireRole(['admin']), async (_req: Request, res: Response) => {
+router.get('/users', authenticateToken, requireRole(['admin']), async (_req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
     const users = await userService.getAllUsers();
     res.json(users);

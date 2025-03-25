@@ -99,14 +99,6 @@ export class UserService {
     return userWithoutPassword;
   }
 
-  async getAllUsers(): Promise<Omit<User, 'password'>[]> {
-    const users = await userDAO.getAllUsers();
-    return users.map(user => {
-      const { password, ...userWithoutPassword } = user;
-      return userWithoutPassword;
-    });
-  }
-
   private generateToken(user: User): string {
     const payload: JWTPayload = {
       userId: user.id,

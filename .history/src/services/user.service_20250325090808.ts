@@ -1,6 +1,6 @@
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import userDAO from '../../database/data-access/userDAO';
+import userDAO from '../database/data-access/';
 import { User, UserRegistrationInput, UserLoginInput, UserUpdateInput, PasswordUpdateInput, JWTPayload } from '../types/user-types';
 
 export class UserService {
@@ -16,7 +16,7 @@ export class UserService {
     const hashedPassword = await bcrypt.hash(input.password, salt);
 
     // Create new user
-    const user: User = await userDAO.create({
+    const user = await userDAO.create({
       email: input.email,
       password: hashedPassword,
       firstName: input.firstName,
@@ -97,14 +97,6 @@ export class UserService {
     // Return user without password
     const { password, ...userWithoutPassword } = user;
     return userWithoutPassword;
-  }
-
-  async getAllUsers(): Promise<Omit<User, 'password'>[]> {
-    const users = await userDAO.getAllUsers();
-    return users.map(user => {
-      const { password, ...userWithoutPassword } = user;
-      return userWithoutPassword;
-    });
   }
 
   private generateToken(user: User): string {

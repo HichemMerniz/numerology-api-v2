@@ -19,7 +19,7 @@ router.post('/register', async (req: Request, res: Response) => {
     const result = await userService.register(input);
     res.status(201).json(result);
   } catch (error) {
-    if (error instanceof Error) {
+    if (error instanceof Error && error.message === 'Email already registered') {
       res.status(400).json({
         error: 'Registration failed',
         details: error.message
@@ -104,12 +104,12 @@ router.put('/password', authenticateToken, async (req: Request, res: Response) =
 // Admin only: Get all users
 router.get('/users', authenticateToken, requireRole(['admin']), async (_req: Request, res: Response) => {
   try {
-    const users = await userService.getAllUsers();
-    res.json(users);
+    // This would typically be a database query
+    res.json({ message: 'Admin access granted - User list functionality to be implemented' });
   } catch (error) {
     res.status(500).json({
       error: 'Failed to retrieve users',
-      details: error instanceof Error ? error.message : 'An unexpected error occurred'
+      details: 'An unexpected error occurred'
     });
   }
 });
