@@ -17,7 +17,7 @@ class UserDAO {
   private filePath: string;
 
   constructor() {
-    this.filePath = path.join(__dirname, '../../database/models/users.json');
+    this.filePath = path.join(__dirname, '../models/users.json');
   }
 
   private async readUsers(): Promise<{ users: User[] }> {

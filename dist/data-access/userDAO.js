@@ -8,7 +8,7 @@ const path_1 = __importDefault(require("path"));
 const uuid_1 = require("uuid");
 class UserDAO {
     constructor() {
-        this.filePath = path_1.default.join(__dirname, '../models/users.json');
+        this.filePath = path_1.default.join(__dirname, '../../database/models/users.json');
     }
     async readUsers() {
         try {
