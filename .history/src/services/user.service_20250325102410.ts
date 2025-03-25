@@ -1,6 +1,6 @@
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import userDAO from '../data-access/userDAO';
+import userDAO from '../database/data-access/';
 import { User, UserRegistrationInput, UserLoginInput, UserUpdateInput, PasswordUpdateInput, JWTPayload } from '../types/user-types';
 
 export class UserService {
