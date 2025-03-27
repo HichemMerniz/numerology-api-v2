@@ -35,15 +35,16 @@ app.get('/', (_req, res) => {
                 users: 'GET /api/auth/users (Admin only)'
             },
             numerology: {
-                calculate: 'POST /api/calculate',
-                getResult: 'GET /api/result/:id'
+                calculate: 'POST /api/calculations/calculate',
+                getResult: 'GET /api/calculations/result/:id',
+                history: 'GET /api/calculations/history'
             }
         }
     });
 });
 // API Routes
 app.use('/api/auth', user_controller_1.default);
-app.use('/api', calculation_controller_1.default);
+app.use('/api/calculations', calculation_controller_1.default);
 // 404 Handler
 app.use((_req, res) => {
     res.status(404).json({
