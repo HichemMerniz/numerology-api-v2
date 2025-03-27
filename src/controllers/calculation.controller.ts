@@ -1,7 +1,9 @@
 // src/controllers/calculation.controller.ts
-import { Request, Response, Router } from 'express';
+import express, { Request, Response } from 'express';
 import { NumerologyInput, NumerologyResult } from '../types/numerology-types';
 import { CalculationService } from '../services/calculation.service';
+import { StorageService } from '../services/storage.service';
+import { authenticateToken } from '../middleware/auth.middleware';
 
 interface CalculateRequestBody {
   lastName: string;
@@ -17,13 +19,16 @@ interface ResultParams {
   id: string;
 }
 
-const router = Router();
+interface HistoryQueryParams {
+  page?: string;
+  limit?: string;
+}
+
+const router = express.Router();
 const calculationService = new CalculationService();
+const storageService = StorageService.getInstance();
 
-// In-memory storage for demonstration
-const resultsStorage = new Map<string, NumerologyResult>();
-
-router.post('/calculate', async (req: Request<{}, any, CalculateRequestBody>, res: Response): Promise<void> => {
+router.post('/calculate', authenticateToken, async (req: Request, res: Response): Promise<void> => {
   try {
     const input: NumerologyInput = {
       lastName: req.body.lastName,
@@ -61,9 +66,18 @@ router.post('/calculate', async (req: Request<{}, any, CalculateRequestBody>, re
     // Perform calculation
     const result = calculationService.calculate(input);
     
-    // Store result
+    // Generate unique ID and save result
     const resultId = Date.now().toString();
-    resultsStorage.set(resultId, result);
+    await storageService.saveCalculation(
+      resultId, 
+      result,
+      req.user!.userId,
+      {
+        firstName: input.firstName,
+        lastName: input.lastName,
+        birthDate: input.birthDate
+      }
+    );
 
     res.json({
       resultId,
@@ -79,16 +93,89 @@ router.post('/calculate', async (req: Request<{}, any, CalculateRequestBody>, re
   }
 });
 
-router.get('/result/:id', (req: Request<ResultParams>, res: Response): void => {
-  const result = resultsStorage.get(req.params.id);
-  if (!result) {
-    res.status(404).json({ 
-      error: 'Result not found',
-      details: `No calculation result found for ID: ${req.params.id}`
+router.get('/history', authenticateToken, async (req: Request<{}, {}, {}, HistoryQueryParams>, res: Response): Promise<void> => {
+  try {
+    const page = parseInt(req.query.page || '1', 10);
+    const limit = parseInt(req.query.limit || '10', 10);
+
+    // Validate pagination parameters
+    if (isNaN(page) || page < 1 || isNaN(limit) || limit < 1 || limit > 100) {
+      res.status(400).json({
+        error: 'Invalid pagination parameters',
+        details: 'Page must be a positive number and limit must be between 1 and 100'
+      });
+      return;
+    }
+
+    const history = await storageService.getCalculationHistory(req.user!.userId, page, limit);
+    res.json(history);
+  } catch (error) {
+    console.error('Error retrieving calculation history:', error);
+    res.status(500).json({
+      error: 'Failed to retrieve calculation history',
+      details: error instanceof Error ? error.message : 'Unknown error'
     });
-    return;
   }
-  res.json(result);
+});
+
+router.get('/result/:id', authenticateToken, async (req: Request, res: Response): Promise<void> => {
+  try {
+    const result = await storageService.getCalculation(req.params.id);
+    if (!result) {
+      res.status(404).json({ 
+        error: 'Result not found',
+        details: `No calculation result found for ID: ${req.params.id}`
+      });
+      return;
+    }
+    res.json(result);
+  } catch (error) {
+    console.error('Error retrieving result:', error);
+    res.status(500).json({
+      error: 'Failed to retrieve result',
+      details: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
+});
+
+router.get('/result/:id/pdf', authenticateToken, async (req: Request, res: Response): Promise<void> => {
+  try {
+    const pdfBuffer = await storageService.getPDF(req.params.id);
+    if (!pdfBuffer) {
+      res.status(404).json({ 
+        error: 'PDF not found',
+        details: `No PDF found for calculation ID: ${req.params.id}`
+      });
+      return;
+    }
+
+    // Set response headers for PDF download
+    res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Disposition', `attachment; filename=numerology-report-${req.params.id}.pdf`);
+    res.setHeader('Content-Length', pdfBuffer.length);
+
+    // Send the PDF
+    res.send(pdfBuffer);
+  } catch (error) {
+    console.error('Error retrieving PDF:', error);
+    res.status(500).json({
+      error: 'Failed to retrieve PDF',
+      details: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
+});
+
+router.get('/all', authenticateToken, async (_req: Request, res: Response): Promise<void> => {
+  try {
+    const result = await storageService.getAllCalculations();
+    res.json(result);
+  } catch (error) {
+    console.error('Error retrieving all calculations:', error);
+    res.status(500).json({
+      error: 'Failed to retrieve all calculations',
+      details: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
 });
 
 export default router;

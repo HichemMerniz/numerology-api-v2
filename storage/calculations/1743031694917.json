@@ -1,0 +1,203 @@
+{
+  "lifePath": 4,
+  "expression": 9,
+  "intimate": 11,
+  "realization": 7,
+  "health": 9,
+  "sentiment": 2,
+  "heredity": 9,
+  "karmicDebts": [
+    2,
+    9
+  ],
+  "inclusionGrid": {
+    "1": 11,
+    "2": 0,
+    "3": 0,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 8,
+    "9": 0
+  },
+  "cycles": {
+    "formative": {
+      "number": 9,
+      "years": "0-24"
+    },
+    "productive": {
+      "number": 22,
+      "years": "25-60"
+    },
+    "harvest": {
+      "number": 9,
+      "years": "61+"
+    }
+  },
+  "realizations": {
+    "first": 32,
+    "second": 41,
+    "third": 50,
+    "fourth": 59
+  },
+  "challenges": {
+    "firstMinor": 13,
+    "secondMinor": 13,
+    "major": 0
+  },
+  "personalityTraits": {
+    "intimate": "H",
+    "social": "D"
+  },
+  "nameAnalysis": {
+    "lastName": {
+      "letters": [
+        "H",
+        "J",
+        "H",
+        "J",
+        "H",
+        "J",
+        "H",
+        "J"
+      ],
+      "values": [
+        8,
+        1,
+        8,
+        1,
+        8,
+        1,
+        8,
+        1
+      ],
+      "consonants": [
+        8,
+        1,
+        8,
+        1,
+        8,
+        1,
+        8,
+        1
+      ],
+      "vowels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 9,
+      "consonantSum": 9,
+      "vowelSum": 0
+    },
+    "firstName": {
+      "letters": [
+        "D",
+        "O",
+        "D",
+        "G",
+        "E",
+        "J",
+        "H",
+        "J"
+      ],
+      "values": [
+        4,
+        6,
+        4,
+        7,
+        5,
+        1,
+        8,
+        1
+      ],
+      "consonants": [
+        4,
+        0,
+        4,
+        7,
+        0,
+        1,
+        8,
+        1
+      ],
+      "vowels": [
+        0,
+        6,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "total": 9,
+      "consonantSum": 7,
+      "vowelSum": 11
+    },
+    "middleNames": [
+      {
+        "letters": [
+          "J",
+          "H",
+          "J",
+          "H",
+          "J",
+          "H",
+          "J",
+          "J"
+        ],
+        "values": [
+          1,
+          8,
+          1,
+          8,
+          1,
+          8,
+          1,
+          1
+        ],
+        "consonants": [
+          1,
+          8,
+          1,
+          8,
+          1,
+          8,
+          1,
+          1
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 2,
+        "consonantSum": 2,
+        "vowelSum": 0
+      }
+    ]
+  },
+  "vibration": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+}

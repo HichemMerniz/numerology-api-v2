@@ -1,0 +1,242 @@
+{
+  "lifePath": 9,
+  "expression": 8,
+  "intimate": 6,
+  "realization": 11,
+  "health": 2,
+  "sentiment": 1,
+  "heredity": 6,
+  "karmicDebts": [],
+  "inclusionGrid": {
+    "1": 6,
+    "2": 1,
+    "3": 2,
+    "4": 5,
+    "5": 4,
+    "6": 3,
+    "7": 0,
+    "8": 4,
+    "9": 3
+  },
+  "cycles": {
+    "formative": {
+      "number": 5,
+      "years": "0-28"
+    },
+    "productive": {
+      "number": 3,
+      "years": "29-55"
+    },
+    "harvest": {
+      "number": 1,
+      "years": "56+"
+    }
+  },
+  "realizations": {
+    "first": 27,
+    "second": 36,
+    "third": 45,
+    "fourth": 54
+  },
+  "challenges": {
+    "firstMinor": 2,
+    "secondMinor": 2,
+    "major": 0
+  },
+  "personalityTraits": {
+    "intimate": "S",
+    "social": "J"
+  },
+  "nameAnalysis": {
+    "lastName": {
+      "letters": [
+        "S",
+        "M",
+        "I",
+        "T",
+        "H"
+      ],
+      "values": [
+        1,
+        4,
+        9,
+        2,
+        8
+      ],
+      "consonants": [
+        1,
+        4,
+        0,
+        2,
+        8
+      ],
+      "vowels": [
+        0,
+        0,
+        9,
+        0,
+        0
+      ],
+      "total": 6,
+      "consonantSum": 6,
+      "vowelSum": 9
+    },
+    "firstName": {
+      "letters": [
+        "J",
+        "O",
+        "H",
+        "N"
+      ],
+      "values": [
+        1,
+        6,
+        8,
+        5
+      ],
+      "consonants": [
+        1,
+        0,
+        8,
+        5
+      ],
+      "vowels": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "total": 2,
+      "consonantSum": 5,
+      "vowelSum": 6
+    },
+    "middleNames": [
+      {
+        "letters": [
+          "M",
+          "I",
+          "C",
+          "H",
+          "A",
+          "E",
+          "L"
+        ],
+        "values": [
+          4,
+          9,
+          3,
+          8,
+          1,
+          5,
+          3
+        ],
+        "consonants": [
+          4,
+          0,
+          3,
+          8,
+          0,
+          0,
+          3
+        ],
+        "vowels": [
+          0,
+          9,
+          0,
+          0,
+          1,
+          5,
+          0
+        ],
+        "total": 33,
+        "consonantSum": 9,
+        "vowelSum": 6
+      },
+      {
+        "letters": [
+          "D",
+          "A",
+          "V",
+          "I",
+          "D"
+        ],
+        "values": [
+          4,
+          1,
+          4,
+          9,
+          4
+        ],
+        "consonants": [
+          4,
+          0,
+          4,
+          0,
+          4
+        ],
+        "vowels": [
+          0,
+          1,
+          0,
+          9,
+          0
+        ],
+        "total": 22,
+        "consonantSum": 3,
+        "vowelSum": 1
+      }
+    ],
+    "maritalName": {
+      "letters": [
+        "J",
+        "O",
+        "H",
+        "N",
+        "S",
+        "O",
+        "N"
+      ],
+      "values": [
+        1,
+        6,
+        8,
+        5,
+        1,
+        6,
+        5
+      ],
+      "consonants": [
+        1,
+        0,
+        8,
+        5,
+        1,
+        0,
+        5
+      ],
+      "vowels": [
+        0,
+        6,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      "total": 5,
+      "consonantSum": 2,
+      "vowelSum": 3
+    }
+  },
+  "vibration": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+}

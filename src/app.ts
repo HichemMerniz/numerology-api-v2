@@ -35,8 +35,9 @@ app.get('/', (_req: Request, res: Response) => {
         users: 'GET /api/auth/users (Admin only)'
       },
       numerology: {
-        calculate: 'POST /api/calculate',
-        getResult: 'GET /api/result/:id'
+        calculate: 'POST /api/calculations/calculate',
+        getResult: 'GET /api/calculations/result/:id',
+        history: 'GET /api/calculations/history'
       }
     }
   });
@@ -44,7 +45,7 @@ app.get('/', (_req: Request, res: Response) => {
 
 // API Routes
 app.use('/api/auth', userRoutes);
-app.use('/api', calculationRoutes);
+app.use('/api/calculations', calculationRoutes);
 
 // 404 Handler
 app.use((_req: Request, res: Response) => {
