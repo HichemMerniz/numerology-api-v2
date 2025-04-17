@@ -44,14 +44,14 @@ export interface NumerologyResult {
     };
   };
   realizations: {
-    premier: number;
-    deuxième: number;
-    troisième: number;
-    quatrième: number;
+    first: number;
+    second: number;
+    third: number;
+    fourth: number;
   };
   challenges: {
-    premierMinor: number;
-    deuxièmeMinor: number;
+    firstMinor: number;
+    secondMinor: number;
     major: number;
   };
   personalityTraits: {

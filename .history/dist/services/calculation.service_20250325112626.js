@@ -136,17 +136,17 @@ class CalculationService {
         const realizationData = numerology_data_1.numerologyData.realizationPeriods[lifePath];
         if (!realizationData) {
             return {
-                premier: 0,
-                deuxième: 0,
-                troisième: 0,
-                quatrième: 0
+                first: 0,
+                second: 0,
+                third: 0,
+                fourth: 0
             };
         }
         return {
-            premier: realizationData.first,
-            deuxième: realizationData.second,
-            troisième: realizationData.third,
-            quatrième: realizationData.fourth
+            first: realizationData.first,
+            second: realizationData.second,
+            third: realizationData.third,
+            fourth: realizationData.fourth
         };
     }
     calculateChallenges(birthDate) {

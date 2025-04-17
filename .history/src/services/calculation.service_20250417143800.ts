@@ -175,7 +175,7 @@ export class CalculationService {
     const [day, month, year] = birthDate.split('/').map(Number);
     
     const premierMinor = Math.abs(this.reduceNumber(month) - this.reduceNumber(day));
-    const deuxièmeMinor = sMath.abs(this.reduceNumber(year) - this.reduceNumber(day));
+    const deuxièmeMinor = Math.abs(this.reduceNumber(year) - this.reduceNumber(day));
     const major = Math.abs(premierMinor - deuxièmeMinor);
 
     return {

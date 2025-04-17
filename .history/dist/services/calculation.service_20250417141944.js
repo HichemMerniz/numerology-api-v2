@@ -143,10 +143,10 @@ class CalculationService {
             };
         }
         return {
-            premier: realizationData.first,
-            deuxième: realizationData.second,
-            troisième: realizationData.third,
-            quatrième: realizationData.fourth
+            first: realizationData.first,
+            second: realizationData.second,
+            third: realizationData.third,
+            fourth: realizationData.fourth
         };
     }
     calculateChallenges(birthDate) {

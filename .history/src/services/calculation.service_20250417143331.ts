@@ -155,32 +155,32 @@ export class CalculationService {
     const realizationData = numerologyData.realizationPeriods[lifePath as keyof typeof numerologyData.realizationPeriods];
     
     if (!realizationData) {
-        return {
-            premier: 0,
-            deuxième: 0,
-            troisième: 0,
-            quatrième: 0
-        };
+      return {
+      premier: 0,
+      deuxième: 0,
+      troisième: 0,
+      quatrième: 0
+      };
     }
 
     return {
-        premier: this.reduceNumber(realizationData.premier),
-        deuxième: this.reduceNumber(realizationData.deuxième),
-        troisième: this.reduceNumber(realizationData.troisième),
-        quatrième: this.reduceNumber(realizationData.quatrième)
+      premier: realizationData.premier,
+      deuxième: realizationData.deuxième,
+      troisième: realizationData.troisième,
+      quatrième: realizationData.quatrième
     };
-}
+  }
 
   private calculateChallenges(birthDate: string): NumerologyResult['challenges'] {
     const [day, month, year] = birthDate.split('/').map(Number);
     
     const premierMinor = Math.abs(this.reduceNumber(month) - this.reduceNumber(day));
-    const deuxièmeMinor = sMath.abs(this.reduceNumber(year) - this.reduceNumber(day));
+    const deuxièmeMinor = Math.abs(this.reduceNumber(year) - this.reduceNumber(day));
     const major = Math.abs(premierMinor - deuxièmeMinor);
 
     return {
-      premierMinor,
-      deuxièmeMinor,
+      premierMinor: firstMinor,
+      deuxièmeMinor: secondMinor,
       major
     };
   }

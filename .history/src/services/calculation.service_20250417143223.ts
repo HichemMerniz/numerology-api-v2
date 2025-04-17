@@ -174,13 +174,13 @@ export class CalculationService {
   private calculateChallenges(birthDate: string): NumerologyResult['challenges'] {
     const [day, month, year] = birthDate.split('/').map(Number);
     
-    const premierMinor = Math.abs(this.reduceNumber(month) - this.reduceNumber(day));
-    const deuxièmeMinor = sMath.abs(this.reduceNumber(year) - this.reduceNumber(day));
-    const major = Math.abs(premierMinor - deuxièmeMinor);
+    const firstMinor = Math.abs(this.reduceNumber(month) - this.reduceNumber(day));
+    const secondMinor = Math.abs(this.reduceNumber(year) - this.reduceNumber(day));
+    const major = Math.abs(firstMinor - secondMinor);
 
     return {
-      premierMinor,
-      deuxièmeMinor,
+      premierMinor: firstMinor,
+      deuxièmeMinor: secondMinor,
       major
     };
   }

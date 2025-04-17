@@ -161,21 +161,22 @@ export class CalculationService {
             troisième: 0,
             quatrième: 0
         };
+    }};
     }
 
     return {
-        premier: this.reduceNumber(realizationData.premier),
-        deuxième: this.reduceNumber(realizationData.deuxième),
-        troisième: this.reduceNumber(realizationData.troisième),
-        quatrième: this.reduceNumber(realizationData.quatrième)
+      premier: this.reduceNumber(realizationData.premier),
+      deuxième: this.reduceNumber(realizationData.deuxième),
+      troisième: this.reduceNumber(realizationData.troisième),
+      quatrième: this.reduceNumber(realizationData.quatrième)
     };
-}
+  }
 
   private calculateChallenges(birthDate: string): NumerologyResult['challenges'] {
     const [day, month, year] = birthDate.split('/').map(Number);
     
     const premierMinor = Math.abs(this.reduceNumber(month) - this.reduceNumber(day));
-    const deuxièmeMinor = sMath.abs(this.reduceNumber(year) - this.reduceNumber(day));
+    const deuxièmeMinor = Math.abs(this.reduceNumber(year) - this.reduceNumber(day));
     const major = Math.abs(premierMinor - deuxièmeMinor);
 
     return {

@@ -50,8 +50,8 @@ export interface NumerologyResult {
     quatrième: number;
   };
   challenges: {
-    premierMinor: number;
-    deuxièmeMinor: number;
+    firstMinor: number;
+    secondMinor: number;
     major: number;
   };
   personalityTraits: {

@@ -71,15 +71,15 @@ export const numerologyData = {
   },
 
   realizationPeriods: {
-    1: { premier: 35, deuxième: 44, troisième: 53, quatrième: 62 },
-    2: { premier: 34, deuxième: 43, troisième: 52, quatrième: 61 },
-    3: { premier: 33, deuxième: 42, troisième: 51, quatrième: 60 },
-    4: { premier: 32, deuxième: 41, troisième: 50, quatrième: 59 },
-    5: { premier: 31, deuxième: 40, troisième: 49, quatrième: 58 },
-    6: { premier: 30, deuxième: 39, troisième: 48, quatrième: 57 },
-    7: { premier: 29, deuxième: 38, troisième: 47, quatrième: 56 },
-    8: { premier: 28, deuxième: 37, troisième: 46, quatrième: 55 },
-    9: { premier: 27, deuxième: 36, troisième: 45, quatrième: 54 }
+    1: { premier  : 35, deuxième: 44, troisième: 53, quatrième: 62 },
+    2: { first: 34, second: 43, third: 52, fourth: 61 },
+    3: { first: 33, second: 42, third: 51, fourth: 60 },
+    4: { first: 32, second: 41, third: 50, fourth: 59 },
+    5: { first: 31, second: 40, third: 49, fourth: 58 },
+    6: { first: 30, second: 39, third: 48, fourth: 57 },
+    7: { first: 29, second: 38, third: 47, fourth: 56 },
+    8: { first: 28, second: 37, third: 46, fourth: 55 },
+    9: { first: 27, second: 36, third: 45, fourth: 54 }
   },
 
   specialNumbers: [11, 22, 33],
