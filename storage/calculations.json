@@ -3156,5 +3156,391 @@
       8,
       9
     ]
+  },
+  "1744968928300": {
+    "lifePath": 1,
+    "expression": 9,
+    "intimate": 0,
+    "realization": 9,
+    "health": 5,
+    "sentiment": 5,
+    "heredity": 22,
+    "karmicDebts": [
+      1,
+      6,
+      8,
+      9
+    ],
+    "inclusionGrid": {
+      "1": 0,
+      "2": 7,
+      "3": 4,
+      "4": 8,
+      "5": 2,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 9,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 2,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 8,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 7,
+      "deuxièmeMinor": 6,
+      "major": 1
+    },
+    "personalityTraits": {
+      "intimate": "K",
+      "social": "C"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "K",
+          "K",
+          "D",
+          "C",
+          "N",
+          "D",
+          "K"
+        ],
+        "values": [
+          2,
+          2,
+          4,
+          3,
+          5,
+          4,
+          2
+        ],
+        "consonants": [
+          2,
+          2,
+          4,
+          3,
+          5,
+          4,
+          2
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 22,
+        "consonantSum": 22,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "C",
+          "D",
+          "K",
+          "C",
+          "N",
+          "D",
+          "K"
+        ],
+        "values": [
+          3,
+          4,
+          2,
+          3,
+          5,
+          4,
+          2
+        ],
+        "consonants": [
+          3,
+          4,
+          2,
+          3,
+          5,
+          4,
+          2
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 5,
+        "consonantSum": 5,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "K",
+            "D",
+            "M",
+            "C",
+            "K",
+            "D",
+            "M"
+          ],
+          "values": [
+            2,
+            4,
+            4,
+            3,
+            2,
+            4,
+            4
+          ],
+          "consonants": [
+            2,
+            4,
+            4,
+            3,
+            2,
+            4,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ]
+    },
+    "vibration": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "1744968936818": {
+    "lifePath": 1,
+    "expression": 9,
+    "intimate": 0,
+    "realization": 9,
+    "health": 5,
+    "sentiment": 5,
+    "heredity": 22,
+    "karmicDebts": [
+      1,
+      6,
+      8,
+      9
+    ],
+    "inclusionGrid": {
+      "1": 0,
+      "2": 7,
+      "3": 4,
+      "4": 8,
+      "5": 2,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 9,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 2,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 8,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 7,
+      "deuxièmeMinor": 6,
+      "major": 1
+    },
+    "personalityTraits": {
+      "intimate": "K",
+      "social": "C"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "K",
+          "K",
+          "D",
+          "C",
+          "N",
+          "D",
+          "K"
+        ],
+        "values": [
+          2,
+          2,
+          4,
+          3,
+          5,
+          4,
+          2
+        ],
+        "consonants": [
+          2,
+          2,
+          4,
+          3,
+          5,
+          4,
+          2
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 22,
+        "consonantSum": 22,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "C",
+          "D",
+          "K",
+          "C",
+          "N",
+          "D",
+          "K"
+        ],
+        "values": [
+          3,
+          4,
+          2,
+          3,
+          5,
+          4,
+          2
+        ],
+        "consonants": [
+          3,
+          4,
+          2,
+          3,
+          5,
+          4,
+          2
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 5,
+        "consonantSum": 5,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "K",
+            "D",
+            "M",
+            "C",
+            "K",
+            "D",
+            "M"
+          ],
+          "values": [
+            2,
+            4,
+            4,
+            3,
+            2,
+            4,
+            4
+          ],
+          "consonants": [
+            2,
+            4,
+            4,
+            3,
+            2,
+            4,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ]
+    },
+    "vibration": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
   }
 }
