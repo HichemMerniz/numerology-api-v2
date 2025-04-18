@@ -216,15 +216,15 @@ class StorageService {
                 doc.moveDown();
                 // Realizations
                 doc.fontSize(16).text('Realizations');
-                doc.fontSize(12).text('First:', result.realizations.first);
-                doc.fontSize(12).text('Second:', result.realizations.second);
-                doc.fontSize(12).text('Third:', result.realizations.third);
-                doc.fontSize(12).text('Fourth:', result.realizations.fourth);
+                doc.fontSize(12).text('Premier:', result.realizations.premier);
+                doc.fontSize(12).text('Deuxième:', result.realizations.deuxième);
+                doc.fontSize(12).text('Troisième:', result.realizations.troisième);
+                doc.fontSize(12).text('Quatrième:', result.realizations.quatrième);
                 doc.moveDown();
                 // Challenges
                 doc.fontSize(16).text('Challenges');
-                doc.fontSize(12).text('First Minor:', result.challenges.firstMinor);
-                doc.fontSize(12).text('Second Minor:', result.challenges.secondMinor);
+                doc.fontSize(12).text('Premier Minor:', result.challenges.premierMinor);
+                doc.fontSize(12).text('Deuxième Minor:', result.challenges.deuxièmeMinor);
                 doc.fontSize(12).text('Major:', result.challenges.major);
                 // Finalize PDF
                 doc.end();

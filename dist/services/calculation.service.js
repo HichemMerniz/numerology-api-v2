@@ -143,20 +143,20 @@ class CalculationService {
             };
         }
         return {
-            premier: realizationData.first,
-            deuxième: realizationData.second,
-            troisième: realizationData.third,
-            quatrième: realizationData.fourth
+            premier: this.reduceNumber(realizationData.premier),
+            deuxième: this.reduceNumber(realizationData.deuxième),
+            troisième: this.reduceNumber(realizationData.troisième),
+            quatrième: this.reduceNumber(realizationData.quatrième)
         };
     }
     calculateChallenges(birthDate) {
         const [day, month, year] = birthDate.split('/').map(Number);
-        const firstMinor = Math.abs(this.reduceNumber(month) - this.reduceNumber(day));
-        const secondMinor = Math.abs(this.reduceNumber(year) - this.reduceNumber(day));
-        const major = Math.abs(firstMinor - secondMinor);
+        const premierMinor = Math.abs(this.reduceNumber(month) - this.reduceNumber(day));
+        const deuxièmeMinor = Math.abs(this.reduceNumber(year) - this.reduceNumber(day));
+        const major = Math.abs(premierMinor - deuxièmeMinor);
         return {
-            firstMinor,
-            secondMinor,
+            premierMinor,
+            deuxièmeMinor,
             major
         };
     }
