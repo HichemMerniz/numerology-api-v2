@@ -82,7 +82,8 @@ export const numerologyData = {
     9: { premier: 27, deuxième: 36, troisième: 45, quatrième: 54 }
   },
 
-  specialNumbers: [11, 22, 33],
+  specialNumbers: [11, 13, 20, 22, 33],
+  validPillars: [1, 2, 11, 20, 3, 4, 13, 22, 5, 6, 33, 7, 8, 9],
 
   meanings: {
     lifePath: {

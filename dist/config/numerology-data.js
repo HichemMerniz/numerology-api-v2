@@ -81,7 +81,8 @@ exports.numerologyData = {
         8: { premier: 28, deuxième: 37, troisième: 46, quatrième: 55 },
         9: { premier: 27, deuxième: 36, troisième: 45, quatrième: 54 }
     },
-    specialNumbers: [11, 22, 33],
+    specialNumbers: [11, 13, 20, 22, 33],
+    validPillars: [1, 2, 11, 20, 3, 4, 13, 22, 5, 6, 33, 7, 8, 9],
     meanings: {
         lifePath: {
             8: "Besoin de reconnaissance sociale, pouvoir, organisation matérielle... (full text from PDF)"

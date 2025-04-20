@@ -30,18 +30,9 @@ export interface NumerologyResult {
   karmicDebts: number[];
   inclusionGrid: Record<number, number>;
   cycles: {
-    formative: {
-      number: number;
-      years: string;
-    };
-    productive: {
-      number: number;
-      years: string;
-    };
-    harvest: {
-      number: number;
-      years: string;
-    };
+    formative: { number: number; years: string };  // Cycle formatif
+    productive: { number: number; years: string }; // Cycle productif
+    harvest: { number: number; years: string };    // Cycle de moisson
   };
   realizations: {
     premier: number;
@@ -65,4 +56,10 @@ export interface NumerologyResult {
     maritalName?: NameCalculation;
   };
   vibration: number[];
+}
+
+export interface NumerologyCoreNumber {
+  value: number;
+  intensity: string;
+  traits: string[];
 }

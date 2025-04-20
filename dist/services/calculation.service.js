@@ -11,36 +11,36 @@ class CalculationService {
         const maritalNameCalc = input.maritalName ? this.calculateName(input.maritalName) : undefined;
         // Life Path calculation
         const lifePath = this.calculateLifePath(input.birthDate);
-        // Core numbers
-        const expression = this.reduceNumber(lastNameCalc.total + firstNameCalc.total);
-        const intimate = this.reduceNumber(lastNameCalc.vowelSum + firstNameCalc.vowelSum);
-        const realization = this.reduceNumber(lastNameCalc.consonantSum + firstNameCalc.consonantSum);
-        // Health, Sentiment, Heredity
-        const health = this.reduceNumber(firstNameCalc.total);
-        const sentiment = this.reduceNumber(middleNamesCalc.reduce((sum, calc) => sum + calc.total, 0));
-        const heredity = this.reduceNumber(lastNameCalc.total);
-        // Karmic debts
+        // Core numbers - check for special numbers (11, 22, 33)
+        const expression = this.checkSpecialNumber(lastNameCalc.total + firstNameCalc.total);
+        const intimate = this.checkSpecialNumber(lastNameCalc.vowelSum + firstNameCalc.vowelSum);
+        const realization = this.checkSpecialNumber(lastNameCalc.consonantSum + firstNameCalc.consonantSum);
+        // Health, Sentiment, Heredity - using special numbers check
+        const health = this.checkSpecialNumber(firstNameCalc.total);
+        const sentiment = this.checkSpecialNumber(middleNamesCalc.reduce((sum, calc) => sum + calc.total, 0));
+        const heredity = this.checkSpecialNumber(lastNameCalc.total);
+        // Karmic debts - only keep 13, 14, 16, 19
         const karmicDebts = this.calculateKarmicDebts([
             lastNameCalc,
             firstNameCalc,
             ...middleNamesCalc,
             ...(maritalNameCalc ? [maritalNameCalc] : [])
-        ]);
-        // Inclusion grid
+        ]).filter(num => [13, 14, 16, 19].includes(num));
+        // Inclusion grid with proper counting
         const inclusionGrid = this.calculateInclusionGrid([
             lastNameCalc,
             firstNameCalc,
             ...middleNamesCalc,
             ...(maritalNameCalc ? [maritalNameCalc] : [])
         ]);
-        // Cycles
+        // Cycles with proper naming (formatif, productif, moisson)
         const cycles = this.calculateCycles(input.birthDate);
-        // Realizations
+        // Realizations with special numbers check
         const realizations = this.calculateRealizations(lifePath);
         // Challenges
         const challenges = this.calculateChallenges(input.birthDate);
         return {
-            lifePath,
+            lifePath: this.checkSpecialNumber(lifePath),
             expression,
             intimate,
             realization,
@@ -53,8 +53,8 @@ class CalculationService {
             realizations,
             challenges,
             personalityTraits: {
-                intimate: lastNameCalc.letters[0] || '',
-                social: firstNameCalc.letters[0] || ''
+                intimate: firstNameCalc.letters[0] || '', // First letter of first name
+                social: lastNameCalc.letters[0] || '' // First letter of last name
             },
             nameAnalysis: {
                 lastName: lastNameCalc,
@@ -62,7 +62,16 @@ class CalculationService {
                 middleNames: middleNamesCalc,
                 maritalName: maritalNameCalc
             },
-            vibration: Array.from({ length: 9 }, (_, i) => i + 1)
+            vibration: numerology_data_1.numerologyData.validPillars, // Using validPillars instead of 1-9 range
+            //@ts-ignore
+            fundamentalNumbers: Array.from({ length: 9 }, (_, i) => i + 1).map(num => ({
+                value: num,
+                intensity: this.getNumberIntensity(inclusionGrid[num]),
+                //@ts-ignore
+                traits: numerology_data_1.numerologyData.meanings[num] || [],
+                //@ts-ignore
+                description: numerology_data_1.numerologyData.inclusionGridMeanings[num] || ''
+            }))
         };
     }
     calculateName(name) {
@@ -132,6 +141,13 @@ class CalculationService {
             }
         };
     }
+    reduceRealizationNumber(num) {
+        if ([11, 22].includes(num)) {
+            return num;
+        }
+        let reduced = this.reduceNumber(num);
+        return [1, 2, 3, 4, 5, 6, 7, 8, 9].includes(reduced) ? reduced : this.reduceNumber(reduced);
+    }
     calculateRealizations(lifePath) {
         const realizationData = numerology_data_1.numerologyData.realizationPeriods[lifePath];
         if (!realizationData) {
@@ -143,10 +159,10 @@ class CalculationService {
             };
         }
         return {
-            premier: this.reduceNumber(realizationData.premier),
-            deuxième: this.reduceNumber(realizationData.deuxième),
-            troisième: this.reduceNumber(realizationData.troisième),
-            quatrième: this.reduceNumber(realizationData.quatrième)
+            premier: this.reduceRealizationNumber(realizationData.premier),
+            deuxième: this.reduceRealizationNumber(realizationData.deuxième),
+            troisième: this.reduceRealizationNumber(realizationData.troisième),
+            quatrième: this.reduceRealizationNumber(realizationData.quatrième)
         };
     }
     calculateChallenges(birthDate) {
@@ -184,6 +200,23 @@ class CalculationService {
             num = Array.from(String(num), Number).reduce((a, b) => a + b, 0);
         }
         return num;
+    }
+    getNumberIntensity(count) {
+        if (count === 0)
+            return 'Absente';
+        if (count === 1)
+            return 'Normale';
+        if (count === 2)
+            return 'Renforcée';
+        if (count === 3)
+            return 'Intensifiée';
+        return 'Excessive';
+    }
+    checkSpecialNumber(num) {
+        if ([11, 22, 33].includes(num)) {
+            return num;
+        }
+        return this.reduceNumber(num);
     }
 }
 exports.CalculationService = CalculationService;
