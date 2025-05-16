@@ -3542,5 +3542,6459 @@
       8,
       9
     ]
+  },
+  "1747425138707": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ]
+  },
+  "1747425180215": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ]
+  },
+  "1747429811427": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ]
+  },
+  "1747429901954": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ]
+  },
+  "1747429931187": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ]
+  },
+  "1747430197693": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ]
+  },
+  "1747435684955": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747435893593": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747435933396": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747435962023": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747436094420": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747436139953": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747436162174": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747436194997": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747436238385": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747436470865": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747436548497": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747436571860": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747436686870": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
+  },
+  "1747436879231": {
+    "lifePath": 1,
+    "expression": 6,
+    "intimate": 0,
+    "realization": 6,
+    "health": 3,
+    "sentiment": 5,
+    "heredity": 3,
+    "karmicDebts": [],
+    "inclusionGrid": {
+      "1": 3,
+      "2": 4,
+      "3": 0,
+      "4": 18,
+      "5": 0,
+      "6": 4,
+      "7": 0,
+      "8": 7,
+      "9": 0
+    },
+    "cycles": {
+      "formative": {
+        "number": 7,
+        "years": "0-27"
+      },
+      "productive": {
+        "number": 3,
+        "years": "28-54"
+      },
+      "harvest": {
+        "number": 9,
+        "years": "55+"
+      }
+    },
+    "realizations": {
+      "premier": 8,
+      "deuxième": 8,
+      "troisième": 8,
+      "quatrième": 8
+    },
+    "challenges": {
+      "premierMinor": 4,
+      "deuxièmeMinor": 6,
+      "major": 2
+    },
+    "personalityTraits": {
+      "intimate": "H",
+      "social": "J"
+    },
+    "nameAnalysis": {
+      "lastName": {
+        "letters": [
+          "J",
+          "D",
+          "B",
+          "D",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "consonants": [
+          1,
+          4,
+          2,
+          4,
+          8,
+          6,
+          2,
+          4,
+          8
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "firstName": {
+        "letters": [
+          "H",
+          "J",
+          "V",
+          "F",
+          "D",
+          "H",
+          "F",
+          "V",
+          "D",
+          "H",
+          "V"
+        ],
+        "values": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "consonants": [
+          8,
+          1,
+          4,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          8,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "consonantSum": 3,
+        "vowelSum": 0
+      },
+      "middleNames": [
+        {
+          "letters": [
+            "J",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D",
+            "B",
+            "V",
+            "H",
+            "D"
+          ],
+          "values": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "consonants": [
+            1,
+            4,
+            2,
+            4,
+            8,
+            4,
+            2,
+            4,
+            8,
+            4
+          ],
+          "vowels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 5,
+          "consonantSum": 5,
+          "vowelSum": 0
+        }
+      ],
+      "maritalName": {
+        "letters": [
+          "D",
+          "V",
+          "D",
+          "F",
+          "V",
+          "D"
+        ],
+        "values": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "consonants": [
+          4,
+          4,
+          4,
+          6,
+          4,
+          4
+        ],
+        "vowels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 8,
+        "consonantSum": 8,
+        "vowelSum": 0
+      }
+    },
+    "vibration": [
+      1,
+      2,
+      11,
+      20,
+      3,
+      4,
+      13,
+      22,
+      5,
+      6,
+      33,
+      7,
+      8,
+      9
+    ],
+    "fundamentalNumbers": [
+      {
+        "value": 1,
+        "intensity": "Intensifiée",
+        "traits": [],
+        "description": "Force et individualité"
+      },
+      {
+        "value": 2,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Sensibilité et relations"
+      },
+      {
+        "value": 3,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Créativité et expression"
+      },
+      {
+        "value": 4,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Travail et stabilité"
+      },
+      {
+        "value": 5,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Liberté et changement"
+      },
+      {
+        "value": 6,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Responsabilités familiales"
+      },
+      {
+        "value": 7,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Spiritualité et réflexion"
+      },
+      {
+        "value": 8,
+        "intensity": "Excessive",
+        "traits": [],
+        "description": "Pouvoir matériel"
+      },
+      {
+        "value": 9,
+        "intensity": "Absente",
+        "traits": [],
+        "description": "Altruisme et humanisme"
+      }
+    ],
+    "birthDate": "30/07/1998"
   }
 }

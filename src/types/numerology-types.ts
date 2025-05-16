@@ -29,6 +29,7 @@ export interface NumerologyResult {
   heredity: number;
   karmicDebts: number[];
   inclusionGrid: Record<number, number>;
+  birthDate: string;
   cycles: {
     formative: { number: number; years: string };  // Cycle formatif
     productive: { number: number; years: string }; // Cycle productif

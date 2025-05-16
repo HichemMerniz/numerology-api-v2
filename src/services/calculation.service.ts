@@ -83,7 +83,8 @@ export class CalculationService {
         traits: numerologyData.meanings[num] || [],
         //@ts-ignore
         description: numerologyData.inclusionGridMeanings[num] || ''
-      }))
+      })),
+      birthDate: input.birthDate
     };
   }
 

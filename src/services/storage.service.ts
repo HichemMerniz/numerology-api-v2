@@ -44,7 +44,7 @@ export class StorageService {
       await fs.ensureDir(this.storageDir);
       await fs.ensureDir(path.join(this.storageDir, 'pdfs'));
       await fs.ensureDir(path.join(this.storageDir, 'history'));
-      
+
       // Load existing calculations
       await this.loadCalculations();
       // Load existing history
@@ -85,7 +85,7 @@ export class StorageService {
     try {
       const historyDir = path.join(this.storageDir, 'history');
       const files = await fs.readdir(historyDir);
-      
+
       for (const file of files) {
         if (file.endsWith('.json')) {
           const historyData = await fs.readJson(path.join(historyDir, file));
@@ -196,6 +196,16 @@ export class StorageService {
     }
   }
 
+
+  // ? this function is responsible for generating the PDF report
+  // ? it takes the id of the calculation and the result object as parameters
+  // ? it uses the pdfkit library to create a PDF document
+  // ? the PDF document is saved in the storage directory under the pdfs folder
+  // ? the function returns a promise that resolves when the PDF is generated
+  // ? the function also handles errors and rejects the promise if any error occurs
+  // ? the PDF document contains various sections such as Life Path Number, Expression Number, Intimate Number, etc.
+  // ? each section displays the corresponding number and its description
+  // ? the PDF document is styled with different font sizes and alignments
   private async generatePDF(id: string, result: NumerologyResult): Promise<void> {
     return new Promise((resolve, reject) => {
       try {
@@ -209,8 +219,33 @@ export class StorageService {
         doc.fontSize(20).text('Numerology Report', { align: 'center' });
         doc.moveDown();
 
+        doc.fontSize(16).text('Personal Information');
+
+        // Helper for aligned key-value
+        function printKeyValue(key: string, value: string) {
+          doc.font('Helvetica').fontSize(12).text(key, { underline: true, continued: true });
+          doc.font('Helvetica-Bold').fontSize(12).text(` ${value}`, { underline: false });
+        }
+
+        // First Name
+        printKeyValue('First Name:', ` ${result.nameAnalysis.firstName.letters.join('')}`);
+
+        // Middle Names
+        printKeyValue('Middle Names:', ` ${result.nameAnalysis.middleNames.map(name => name.letters.join('')).join(', ')}`);
+
+        // Marital Name (uncomment if needed)
+        // printKeyValue('Marital Name:', ` ${result.nameAnalysis.maritalName ? result.nameAnalysis.maritalName.letters.join('') : 'N/A'}`);
+
+        // Last Name
+        printKeyValue('Last Name:', ` ${result.nameAnalysis.lastName.letters.join('')}`);
+
+        // Birth Date
+        printKeyValue('Birth Date:', ` ${result.birthDate}`);
+
+        // ------------------------------------------------------------
         // Life Path Number
         doc.fontSize(16).text('Life Path Number');
+        doc.fontSize(16).text('VOTRE CHEMIN DE VIE');
         doc.fontSize(12).text(`Number: ${result.lifePath}`);
         doc.moveDown();
 
@@ -327,4 +362,4 @@ export class StorageService {
       throw new Error('Failed to get all calculations');
     }
   }
-} 
+}
