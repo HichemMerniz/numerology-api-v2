@@ -28,15 +28,24 @@ export interface NumerologyResult {
   sentiment: number;
   heredity: number;
   karmicDebts: number[];
-  inclusionGrid: Record<number, number>;
+  inclusionGrid: {
+    grid: Record<number, number>;
+    pillars: {
+      physical: number[];
+      emotional: number[];
+      mental: number[];
+      intuitive: number[];
+    };
+    legend: string[];
+  };
   birthDate: string;
   cycles: {
-    formative: { number: number; years: string };  // Cycle formatif
-    productive: { number: number; years: string }; // Cycle productif
-    harvest: { number: number; years: string };    // Cycle de moisson
+    formatif: { number: number; years: string };    // Cycle Formatif
+    productif: { number: number; years: string };   // Cycle Productif
+    "de la Moisson": { number: number; years: string };     // Cycle de la Moisson
   };
   realizations: {
-    premier: number;
+    Première: number;
     deuxième: number;
     troisième: number;
     quatrième: number;
@@ -47,8 +56,8 @@ export interface NumerologyResult {
     major: number;
   };
   personalityTraits: {
-    intimate: string;
-    social: string;
+    "Sur le plan intime": string;
+    "Sur le plan social et professionnel": string;
   };
   nameAnalysis: {
     lastName: NameCalculation;
@@ -57,6 +66,17 @@ export interface NumerologyResult {
     maritalName?: NameCalculation;
   };
   vibration: number[];
+  heredityNumber: {
+    value: number;
+    description: string;
+  };
+  letterAnalysis: {
+    vowels: { letter: string; value: number; count: number }[];
+    consonants: { letter: string; value: number; count: number }[];
+    totalVowels: number;
+    totalConsonants: number;
+    interpretation: string;
+  };
 }
 
 export interface NumerologyCoreNumber {

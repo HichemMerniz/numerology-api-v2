@@ -121,6 +121,21 @@ export const numerologyData = {
     9: "Altruisme et humanisme"
   },
 
+  heredityMeanings: {
+    1: "Héritage d'indépendance et de leadership",
+    2: "Héritage de diplomatie et de coopération",
+    3: "Héritage de créativité et d'expression",
+    4: "Héritage de stabilité et de tradition",
+    5: "Héritage de liberté et d'adaptabilité",
+    6: "Héritage de responsabilité et d'harmonie",
+    7: "Héritage de spiritualité et d'analyse",
+    8: "Héritage de pouvoir et d'abondance",
+    9: "Héritage d'humanisme et de sagesse",
+    11: "Héritage d'intuition et d'illumination",
+    22: "Héritage de vision et de réalisation",
+    33: "Héritage d'enseignement et de guérison"
+  },
+
   vibrationIntensity: {
     normal: "Normale",
     reinforced: "Renforcée",

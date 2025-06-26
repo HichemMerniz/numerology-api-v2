@@ -11,41 +11,41 @@ export class CalculationService {
     const middleNamesCalc = input.middleNames.map(name => this.calculateName(name));
     const maritalNameCalc = input.maritalName ? this.calculateName(input.maritalName) : undefined;
 
+    const allCalculations = [
+      lastNameCalc,
+      firstNameCalc,
+      ...middleNamesCalc,
+      ...(maritalNameCalc ? [maritalNameCalc] : [])
+    ];
+
     // Life Path calculation
     const lifePath = this.calculateLifePath(input.birthDate);
 
-    // Core numbers - check for special numbers (11, 22, 33)
+    // Core numbers
     const expression = this.checkSpecialNumber(lastNameCalc.total + firstNameCalc.total);
     const intimate = this.checkSpecialNumber(lastNameCalc.vowelSum + firstNameCalc.vowelSum);
     const realization = this.checkSpecialNumber(lastNameCalc.consonantSum + firstNameCalc.consonantSum);
 
-    // Health, Sentiment, Heredity - using special numbers check
+    // Health, Sentiment, Heredity
     const health = this.checkSpecialNumber(firstNameCalc.total);
     const sentiment = this.checkSpecialNumber(
       middleNamesCalc.reduce((sum, calc) => sum + calc.total, 0)
     );
     const heredity = this.checkSpecialNumber(lastNameCalc.total);
 
-    // Karmic debts - only keep 13, 14, 16, 19
-    const karmicDebts = this.calculateKarmicDebts([
-      lastNameCalc, 
-      firstNameCalc, 
-      ...middleNamesCalc,
-      ...(maritalNameCalc ? [maritalNameCalc] : [])
-    ]).filter(num => [13, 14, 16, 19].includes(num));
+    // Enhanced calculations
+    const heredityNumber = this.calculateHeredityNumber(lastNameCalc);
+    const inclusionGrid = this.calculateEnhancedInclusionGrid(allCalculations);
+    const letterAnalysis = this.analyzeLetters(allCalculations);
 
-    // Inclusion grid with proper counting
-    const inclusionGrid = this.calculateInclusionGrid([
-      lastNameCalc, 
-      firstNameCalc, 
-      ...middleNamesCalc,
-      ...(maritalNameCalc ? [maritalNameCalc] : [])
-    ]);
+    // Karmic debts
+    const karmicDebts = this.calculateKarmicDebts(allCalculations)
+      .filter(num => [13, 14, 16, 19].includes(num));
 
-    // Cycles with proper naming (formatif, productif, moisson)
+    // Cycles
     const cycles = this.calculateCycles(input.birthDate);
 
-    // Realizations with special numbers check
+    // Realizations
     const realizations = this.calculateRealizations(lifePath);
 
     // Challenges
@@ -59,14 +59,16 @@ export class CalculationService {
       health,
       sentiment,
       heredity,
+      heredityNumber,
       karmicDebts,
       inclusionGrid,
+      letterAnalysis,
       cycles,
       realizations,
       challenges,
       personalityTraits: {
-        intimate: firstNameCalc.letters[0] || '',  // First letter of first name
-        social: lastNameCalc.letters[0] || ''      // First letter of last name
+        "Sur le plan intime": firstNameCalc.letters[0] || '',
+        "Sur le plan social et professionnel": lastNameCalc.letters[0] || ''
       },
       nameAnalysis: {
         lastName: lastNameCalc,
@@ -74,16 +76,7 @@ export class CalculationService {
         middleNames: middleNamesCalc,
         maritalName: maritalNameCalc
       },
-      vibration: numerologyData.validPillars,  // Using validPillars instead of 1-9 range
-      //@ts-ignore
-      fundamentalNumbers: Array.from({length: 9}, (_, i) => i + 1).map(num => ({
-        value: num,
-        intensity: this.getNumberIntensity(inclusionGrid[num]),
-        //@ts-ignore
-        traits: numerologyData.meanings[num] || [],
-        //@ts-ignore
-        description: numerologyData.inclusionGridMeanings[num] || ''
-      })),
+      vibration: numerologyData.validPillars,
       birthDate: input.birthDate
     };
   }
@@ -139,22 +132,22 @@ export class CalculationService {
 
     if (!cycleData) {
       return {
-        formative: { number: 0, years: '0-27' },
-        productive: { number: 0, years: '28-54' },
-        harvest: { number: 0, years: '55+' }
+        formatif: { number: 0, years: '0-27' },
+        productif: { number: 0, years: '28-54' },
+        "de la Moisson": { number: 0, years: '55+' }
       };
     }
 
     return {
-      formative: {
+      formatif: {
         number: this.reduceNumber(month),
         years: `0-${cycleData.formative}`
       },
-      productive: {
+      productif: {
         number: this.reduceNumber(day),
         years: `${cycleData.formative + 1}-${cycleData.productive}`
       },
-      harvest: {
+      "de la Moisson": {
         number: this.reduceNumber(year),
         years: `${cycleData.productive + 1}+`
       }
@@ -175,7 +168,7 @@ export class CalculationService {
     
     if (!realizationData) {
       return {
-        premier: 0,
+        Première: 0,
         deuxième: 0,
         troisième: 0,
         quatrième: 0
@@ -183,7 +176,7 @@ export class CalculationService {
     }
 
     return {
-      premier: this.reduceRealizationNumber(realizationData.premier),
+      Première: this.reduceRealizationNumber(realizationData.premier),
       deuxième: this.reduceRealizationNumber(realizationData.deuxième),
       troisième: this.reduceRealizationNumber(realizationData.troisième),
       quatrième: this.reduceRealizationNumber(realizationData.quatrième)
@@ -214,15 +207,90 @@ export class CalculationService {
       .filter(n => ![3, 5, 7].includes(n));
   }
 
-  private calculateInclusionGrid(calculations: NameCalculation[]): Record<number, number> {
+  private calculateEnhancedInclusionGrid(calculations: NameCalculation[]): NumerologyResult['inclusionGrid'] {
     const grid: Record<number, number> = {};
     const allValues = calculations.flatMap(c => c.values);
     
+    // Calculate basic grid
     for (let i = 1; i <= 9; i++) {
       grid[i] = allValues.filter(v => v === i).length;
     }
+
+    // Calculate pillars
+    const pillars = {
+      physical: [4, 5, 6],    // Earth numbers
+      emotional: [2, 3, 6],   // Water numbers
+      mental: [1, 7, 8],      // Air numbers
+      intuitive: [3, 7, 9]    // Fire numbers
+    };
+
+    // Generate legends based on pillar strengths
+    const legend = Object.entries(pillars).map(([type, numbers]) => {
+      const strength = numbers.reduce((sum, num) => sum + (grid[num] || 0), 0);
+      return `${type.charAt(0).toUpperCase() + type.slice(1)}: ${this.getPillarStrength(strength)}`;
+    });
+
+    return {
+      grid,
+      pillars,
+      legend
+    };
+  }
+
+  private getPillarStrength(value: number): string {
+    if (value === 0) return 'Absent';
+    if (value <= 2) return 'Faible';
+    if (value <= 4) return 'Modéré';
+    if (value <= 6) return 'Fort';
+    return 'Très Fort';
+  }
+
+  private analyzeLetters(calculations: NameCalculation[]): NumerologyResult['letterAnalysis'] {
+    const letterCounts = new Map<string, { type: 'V' | 'C', value: number, count: number }>();
     
-    return grid;
+    calculations.forEach(calc => {
+      calc.letters.forEach((letter, i) => {
+        const letterData = numerologyData.letterValues[letter as keyof typeof numerologyData.letterValues];
+        if (letterData && (letterData.type === 'V' || letterData.type === 'C')) {
+          const existing = letterCounts.get(letter) || { type: letterData.type as 'V' | 'C', value: letterData.value, count: 0 };
+          letterCounts.set(letter, { ...existing, count: existing.count + 1 });
+        }
+      });
+    });
+
+    const vowels = Array.from(letterCounts.entries())
+      .filter(([_, data]) => data.type === 'V')
+      .map(([letter, data]) => ({ letter, value: data.value, count: data.count }));
+
+    const consonants = Array.from(letterCounts.entries())
+      .filter(([_, data]) => data.type === 'C')
+      .map(([letter, data]) => ({ letter, value: data.value, count: data.count }));
+
+    const totalVowels = vowels.reduce((sum, v) => sum + v.count, 0);
+    const totalConsonants = consonants.reduce((sum, c) => sum + c.count, 0);
+
+    return {
+      vowels,
+      consonants,
+      totalVowels,
+      totalConsonants,
+      interpretation: this.interpretLetterRatio(totalVowels, totalConsonants)
+    };
+  }
+
+  private interpretLetterRatio(vowels: number, consonants: number): string {
+    const ratio = vowels / consonants;
+    if (ratio > 1.5) return 'Dominance émotionnelle et intuitive';
+    if (ratio < 0.5) return 'Dominance rationnelle et pratique';
+    return 'Équilibre entre émotion et raison';
+  }
+
+  private calculateHeredityNumber(lastNameCalc: NameCalculation): NumerologyResult['heredityNumber'] {
+    const value = this.reduceNumber(lastNameCalc.total);
+    return {
+      value,
+      description: numerologyData.heredityMeanings[value as keyof typeof numerologyData.heredityMeanings] || 'Description not available'
+    };
   }
 
   private reduceNumber(num: number): number {
@@ -234,14 +302,6 @@ export class CalculationService {
       num = Array.from(String(num), Number).reduce((a, b) => a + b, 0);
     }
     return num;
-  }
-
-  private getNumberIntensity(count: number): string {
-    if (count === 0) return 'Absente';
-    if (count === 1) return 'Normale';
-    if (count === 2) return 'Renforcée';
-    if (count === 3) return 'Intensifiée';
-    return 'Excessive';
   }
 
   private checkSpecialNumber(num: number): number {

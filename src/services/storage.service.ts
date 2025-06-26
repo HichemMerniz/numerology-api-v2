@@ -275,8 +275,9 @@ export class StorageService {
         doc.moveDown();
 
         // Heredity Number
-        doc.fontSize(16).text('Heredity Number');
-        doc.fontSize(12).text(`Number: ${result.heredity}`);
+        doc.fontSize(16).text('Nombre d\'Hérédité');
+        doc.fontSize(12).text(`Nombre: ${result.heredityNumber.value}`);
+        doc.fontSize(12).text(`Description: ${result.heredityNumber.description}`);
         doc.moveDown();
 
         // Karmic Debts
@@ -285,22 +286,52 @@ export class StorageService {
         doc.moveDown();
 
         // Inclusion Grid
-        doc.fontSize(16).text('Inclusion Grid');
-        Object.entries(result.inclusionGrid).forEach(([number, count]) => {
-          doc.fontSize(12).text(`Number ${number}: ${count}`);
+        doc.fontSize(16).text('Grille d\'inclusion');
+        Object.entries(result.inclusionGrid.grid).forEach(([number, count]) => {
+          doc.fontSize(12).text(`Nombre ${number}: ${count}`);
+        });
+        
+        // Pillar Legends
+        doc.fontSize(14).text('Légendes des Piliers');
+        result.inclusionGrid.legend.forEach(legend => {
+          doc.fontSize(12).text(legend);
         });
         doc.moveDown();
 
+        // Letter Analysis
+        doc.fontSize(16).text('Étude des Lettres');
+        
+        doc.fontSize(14).text('Voyelles:');
+        result.letterAnalysis.vowels.forEach(v => {
+          doc.fontSize(12).text(`${v.letter}: ${v.value} (${v.count} fois)`);
+        });
+        
+        doc.fontSize(14).text('Consonnes:');
+        result.letterAnalysis.consonants.forEach(c => {
+          doc.fontSize(12).text(`${c.letter}: ${c.value} (${c.count} fois)`);
+        });
+        
+        doc.fontSize(12).text(`Total Voyelles: ${result.letterAnalysis.totalVowels}`);
+        doc.fontSize(12).text(`Total Consonnes: ${result.letterAnalysis.totalConsonants}`);
+        doc.fontSize(12).text(`Interprétation: ${result.letterAnalysis.interpretation}`);
+        doc.moveDown();
+
         // Cycles
-        doc.fontSize(16).text('Cycles');
-        doc.fontSize(12).text('Formative:', result.cycles.formative.number);
-        doc.fontSize(12).text('Productive:', result.cycles.productive.number);
-        doc.fontSize(12).text('Harvest:', result.cycles.harvest.number);
+        doc.fontSize(16).text('Cycles de Vie');
+        doc.fontSize(12).text(`Cycle Formatif: ${result.cycles.formatif.number}`);
+        doc.fontSize(12).text(`Cycle Productif: ${result.cycles.productif.number}`);
+        doc.fontSize(12).text(`Cycle de la Moisson: ${result.cycles["de la Moisson"].number}`);
+        doc.moveDown();
+
+        // Personality Traits
+        doc.fontSize(16).text('Traits de Personnalité');
+        doc.fontSize(12).text(`Sur le plan intime: ${result.personalityTraits["Sur le plan intime"]}`);
+        doc.fontSize(12).text(`Sur le plan social et professionnel: ${result.personalityTraits["Sur le plan social et professionnel"]}`);
         doc.moveDown();
 
         // Realizations
         doc.fontSize(16).text('Realizations');
-        doc.fontSize(12).text('Premier:', result.realizations.premier);
+        doc.fontSize(12).text('Première:', result.realizations.Première);
         doc.fontSize(12).text('Deuxième:', result.realizations.deuxième);
         doc.fontSize(12).text('Troisième:', result.realizations.troisième);
         doc.fontSize(12).text('Quatrième:', result.realizations.quatrième);
